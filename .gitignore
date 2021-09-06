@@ -1,1 +1,7 @@
 node_modules/
+
+dist/src/linux32
+dist/src/linux64
+dist/src/win32
+dist/src/win64
+dist/src/osx64

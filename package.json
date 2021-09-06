@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "nw src/",
-    "prod": "nwbuild --platforms win32,win64 --buildDir app/"
+    "prod": "nwbuild --platforms win32,win64,linux32,linux64 --buildDir dist/ src/",
+    "prod_ios": "nwbuild --platforms osx64 --buildDir dist/ src/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "nw": "^0.55.0"
-  },
   "devDependencies": {
+    "nw": "^0.55.0",
     "nw-builder": "^3.5.7"
   }
 }
