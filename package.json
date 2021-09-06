@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nw src/",
-    "prod": "nwbuild --platforms win32,win64 --buildDir dist/ src/"
+    "prod": "nwbuild --platforms win32,win64 --buildDir app/"
   },
   "keywords": [],
   "author": "",
