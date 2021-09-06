@@ -1,0 +1,19 @@
+{
+  "name": "quick_nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64 --buildDir dist/ src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nw": "^0.55.0"
+  },
+  "devDependencies": {
+    "nw-builder": "^3.5.7"
+  }
+}
